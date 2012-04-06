@@ -1,0 +1,11 @@
+Rose: #FF85AD
+Taupe claire: #F7E7CC
+Taupe chocolat: #B59D7E
+Foncé: #263D3B
+Vert: #8AC254
+Vert plus foncé: #A2B03D
+
+Vert foncé 2: #1DB21E
+Vert clair: #5CFF5D
+Rose 2: #FF5CAC
+Rose 3: #FF75B9

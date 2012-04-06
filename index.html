@@ -1,0 +1,181 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!-- Consider adding a manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title></title>
+  <meta name="description" content="">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Place favicon.ico and apple-touch-icon.png in the root directory: mathiasbynens.be/notes/touch-icons -->
+
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+  <script src="js/libs/modernizr-2.5.3.custom.min.js"></script>
+</head>
+<body>
+  <nav>
+    <ul class="clearfix">
+      <li><a href="#venir" class="venir">VENIR</a></li>
+      <li><a href="#dormir" class="dormir">DORMIR</a></li>
+      <li><a href="#offrir" class="offrir">OFFRIR</a></li>
+      <li><a href="#ecrire" class="ecrire">ÉCRIRE</a></li>
+      <li><a href="#container" class="accueil">ACCUEIL</a></li>
+    </ul>
+  </nav>
+
+  <div id="container">
+    <header role="banner">
+    </header>
+    <div id="main" role="main">
+      <section id="venir" class="clearfix">
+        <h1>Où est-ce ?</h1>
+        <div class="col">
+          <h2><a class="map" href="http://g.co/maps/7pdsn" target="_blank">L'église Saint Léonard<br/>à Angers</a></h2>
+          <p>L'église au sein de laquelle nous avons tous les deux grandi. <br/>Notez bien l'heure de la célébration : 10h30.</p>
+        </div>
+        <div class="col right">
+          <h2><a class="map" href="http://g.co/maps/agpd2" target="_blank">Le petit Moiré<br/>à Soeurdres</a></h2>
+          <p>Un lieu en pleine nature pour nous rassembler tout le week-end, il n'y a plus qu'à souhaiter un temps radieux pour que la fête soit encore plus belle.</p>
+        </div>
+      </section>
+      <section id="dormir" class="clearfix">
+        <h1>Où dormir ?</h1>
+        <p class="intro">Comme on se marie qu'une seule fois, cela nous fait plaisir si nous pouvons profiter le week-end entier de notre famille et nos amis rassemblés au petit Moiré ! Au réveil, deux bonnes douches et un petit déjeuner pour bien récupérer de la nuit de noces.</p>
+        <div id="surplace" class="clearfix">
+         <h2 class="hidden">Sur place</h2>
+         <div id="matelas" class="col">
+           <h3 class="hidden">Dortoir</h3>
+           <img src="img/matelas.png"/>
+           Il y a 14 lits et 11 matelas dans deux dortoirs attenants à la salle. Si vous comptez profiter d'un de ces matelas, n'oubliez pas de nous le dire pour nous assurer qu'il y en aura bien assez. Nous vous demanderons peut-être d'amener votre matelas en plus !
+         </div>
+         <div id="tente" class="col">
+           <img src="img/tente.png"/>
+           <h3 class="hidden">Tente</h3>
+           Une bonne pelouse verte derrière les batîments attend ceux qui apprécient le calme et l'air frais à l'abri de leur tente.
+         </div>
+        </div>
+        <div id="gites">
+         <h2 class="hidden">Gîtes et Hôtels</h2>
+         <div class="col">
+          <img src="img/gites.png"/>
+          <ul>
+           <li>Gîte St Barnabé à Contigné à 5km
+             <p class="desc">02 41 69 47 22 ou 06 76 32 90 09, 420€ le weekend, <a href="http://gitebarnabe.free.fr">gitebarnabe.free.fr</a></p>
+           </li>
+           <li>Gîte La Minguière à Champigné à 12 km
+             <p class="desc">02 41 42 07 59, 1 gîte de 9 personnes et chambres de 24 à 35€, <a href="http://www.laminguiere.fr">www.laminguiere.fr</a></p>
+           </li>
+           <li>Hôtel Les Ondines à Châteauneuf sur Sarthe à 12 km 
+             <p class="desc">02 41 69 84 38, chambres de 57 à 96€, <a href="http://www.hotel-lesondines.com">www.hotel-lesondines.com</a></p>
+           </li>
+           <li>Auberge de la Sarthe à Châteauneuf sur Sarthe à 12km
+             <p class="desc">02 41 69 85 29, chambres de 45 à 65€, <a href="http://www.auberge-de-la-sarthe.com">www.auberge-de-la-sarthe.com</a></p>
+           </li>
+          </ul>
+         </div>
+         <div class="col">
+          <ul>
+           <li>Gite rural La Hérissière à Chateau-Gontier à 20 km
+             <p class="desc">02 43 70 36 36, 220€ le weekend, <a href="http://reservation.gites-de-france-mayenne.com/gite-rural-leseure-gerard-a-chateau-gontier-dans-POLE-SUD-MAYENNE-53G0160.html">lien Gîtes de France</a></p>
+           </li>
+           <li>Gîte Le Pigeonnier à Daon à 6km
+             <p class="desc">02 43 06 93 09, 300€ le weekend et chambres d'hôte à 90€, <a href="http://www.anjou-loire.com/chateaudeslutz">www.anjou-loire.com/chateaudeslutz</a></p>
+           </li>
+           <li>Gîte Guerin à Azé à 16km
+             <p class="desc">02 43 70 49 72, 205€ le weekend <a href="http://reservation.gites-de-france-mayenne.com/gite-rural-guerin-paul-pierre-a-aze-dans-POLE-SUD-MAYENNE-53G0116.html">lien Gîtes de France</a></p>
+           </li>
+           <li>Hôtels à Château-Gontier
+             <p class="desc"><a href="http://www.pagesjaunes.fr/annuaire/chateau-gontier-bazouges-53/hotels">Liste Pages Jaunes</a></p>
+           </li>
+          </ul>
+         </div>
+        </div>
+      </section>
+      <section id="offrir" class="clearfix">
+        <h1>Quoi offrir ?</h1>
+        <p class="intro">Randonnées sur l'île de Santo Antão et farniete sur l'île de Maio, une population accueillante, le Cap Vert est la destination de notre voyage de noces ! Pour nous faire plaisir, vous pouvez aussi contribuer à l'achat de cadeaux que nous avons choisis.
+        <br/>
+        Après avoir fait le tour des sites 1001listes, ZankYou, Ameliste, etc nous avons trouvé que le plus économique et le plus simple reste de s'en occuper nous même. C'est pourquoi vous pouvez nous envoyer un chèque ou faire un virement (demandez nous le RIB) et un petit mot avec ce à quoi vous souhaitez contribuer.
+        </p>
+        <div id="cadeaux">
+         <ul class="clearfix">
+          <li><a data-fancybox-group="cadeaux" href="img/liste/avion.jpg" title="Deux billets aller-retour pour le Cap Vert ! Montant: 1600€."><img src="img/liste/r/avion.jpg"/></a></li>
+          <li><a data-fancybox-group="cadeaux" href="img/liste/santo_anto.jpg" title="Rando Voyages-Liberté grâce à Allibert Trekking pendant 10 jours sur l'île de Santo Anto. Une île de montagne, de contrastes puissants et de paysages volcaniques à couper le souffle ! L’ouest désertique et minéral, où s’égrènent des vallées lumineuses de verdures tropicales et villages authentiques. Montant: 1400€."><img src="img/liste/r/santo_anto2.jpg"/></a></li>
+          <li><a data-fancybox-group="cadeaux" href="img/liste/maio.jpg" title="Ile Maio, havre de paix, loin du tourisme de masse, cette île est idéale pour les amateurs de la nature et profiter de sa tranquillité légendaire, de ses plages de sable blanc désertes à Praia Preta, Bitche Rotcha, Praia Real..., de ses villages de pêcheurs authentiques, de la découverte de ses marais salants et de l'hospitalité des habitants."><img src="img/liste/r/maio.jpg"/></a></li>
+          <li><a data-fancybox-group="cadeaux" href="img/liste/batons_leki.jpg" title="Deux paires de bâtons Leki pour bien faire grimpette. Montant: 2 x 120€. Restant à offrir: 240€."><img src="img/liste/r/batons_leki.jpg"/></a></li>
+          <li><a data-fancybox-group="cadeaux" href="img/liste/neoairxliteregular.jpg" title="Matelas NeoAir Xlite imbattable sur le cumul des quatre critères fondamentaux, à savoir le poids (460g), le volume, le confort et l’isolation. Montant: 2 x 135€. Restant à offrir: 270€."><img src="img/liste/r/neoairxliteregular.jpg"/></a></li>
+          <li><a data-fancybox-group="cadeaux" href="img/liste/couverts.png" title="Le souvenir de mariage par excellence, la ménagère de couverts ! Montant: 500€. Restant à offrir : 500€."><img src="img/liste/r/couverts.png"/></a></li>
+          <li><a data-fancybox-group="cadeaux" href="img/liste/cafetiere.jpg" title="Cafetière Torino inox brossé induction 10 tasses. Montant: 83€. Restant à offrir: 83€."><img src="img/liste/r/cafetiere.jpg"/></a></li>
+          <li><a data-fancybox-group="cadeaux" href="img/liste/enceintes2.jpg" title="Paire d'enceintes colonne Highland Audio Aingel. Montant: 400€. Restant à offrir: 400€."><img src="img/liste/r/enceintes2.jpg"/></a></li>
+          <li><a data-fancybox-group="cadeaux" href="img/liste/ampli.jpg" title="Amplificateur Tangent Exeo-AMP. Montant: 240€. Restant à offrir: 240€."><img src="img/liste/r/ampli.jpg"/></a></li>
+          <!-- <li><a data-fancybox-group="cadeaux" href="img/liste" title="Montant: 50€. Restant à offrir: 0."><img src="img/liste/r"/></a></li> -->
+         </ul>
+        </div>
+      </section>
+      <section id="ecrire" class="clearfix">
+       <h1>Comment nous écrire ?</h1>
+       <p>
+        Une réponse avant le 1er juin permet de nous organiser pour vous recevoir comme il se doit :)
+        <br>
+        Nos adresses email : <a href="mailto:mariepst@gmail.com">mariepst@gmail.com</a> ou <a href="mailto:remidewitte@gmail.com">remidewitte@gmail.com</a>.
+        <br>
+        Notre adresse postale : 16 rue Jenner, 44100 Nantes
+       </p>
+      </section>
+    </div>
+  </div>
+
+  <footer>
+  </footer>
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+<script src="http://cufon.shoqolate.com/js/cufon-yui.js" type="text/javascript"></script>
+<script src="js/bebas-neue.cufonfonts.js" type="text/javascript"></script>
+<script type="text/javascript">
+Cufon.set('fontSize', '47px').replace('nav a', { fontFamily: 'Bebas Neue', hover: true });
+Cufon.now();
+</script>
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+  <!-- Add fancyBox -->
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+  <script type="text/javascript">
+    $('#cadeaux ul a').fancybox({
+      helpers : {
+        // title : {type : 'over'}
+        title : {type : 'inside'}
+      }
+    });
+  </script>
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet -->
+  <script>
+    var _gaq=[['_setAccount','UA-30651863-1'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script>
+</body>
+</html>
