@@ -404,6 +404,10 @@ header {
   float: left;
   margin: 0 20px 0 0;
 }
+#bebes {
+  padding: 0 30px;
+  margin: 1.6em 0 0;
+}
 #gites {
   margin-top: 30px;
 }
