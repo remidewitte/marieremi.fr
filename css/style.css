@@ -282,68 +282,10 @@ body {
 #container {
   background: url("../img/bg1.png") repeat 0 0 #F7E7CC;
   font-size: 1.1em;
-  padding-top: 134px;
+  padding-top: 30px;
   margin: 0 auto;
   position: relative;
   width: 960px;
-}
-
-nav {
-  height: 78px;
-  left: 0;
-  opacity: 0.95;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 100;
-
-  background-color: #383838;
-  background-image:         linear-gradient( top,
-                                             #B59D7E,
-                                             #020202 );
-  background-image:    -moz-linear-gradient( center top,
-                                             #433A2F 0%,
-                                             #433A2F 100% );
-  background-image:     -ms-linear-gradient( top,
-                                             #444444,
-                                             #999999 );
-  background-image:      -o-linear-gradient( top,
-                                             #383838,
-                                             #020202 );
-  background-image:        -webkit-gradient( linear,
-                                             left top,
-                                             left bottom,
-                                             color-stop(0%, #383838),
-                                             color-stop(100%, #020202) );
-  background-image: -webkit-linear-gradient( #383838,
-                                             #020202 );
-
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#383838', EndColorStr='#020202');
-
-     -moz-box-shadow: 0 1px 20px #000000;
-  -webkit-box-shadow: 0 1px 20px #000000;
-          box-shadow: 0 1px 20px #000000;
-
-}
-
-nav ul {
-  margin: 0 auto;
-  width: 960px;
-}
-
-body>nav li {
-  float: left;
-  width: 20%;
-  font-size: 40px;
-  line-height: 80px;
-  text-align: center;
-}
-
-nav a:link, nav a:visited {
-  color: white;
-}
-nav a:hover {
-  color: #FF85AD;
 }
 
 h1 {
@@ -360,98 +302,33 @@ h1 {
           box-shadow: 0 1px 8px #000000;
 }
 
-header {
-  background: url("../img/montagephoto.png") no-repeat 50% 50px transparent;
-  padding-bottom: 600px;
-}
-#venir {
-  background: url("../img/saintleomoire.png") no-repeat scroll 50% 110px transparent;
-}
-#venir .col {
-    float: left;
-    margin-left: 30px;
-    padding-top: 10px;
-    text-align: center;
-    width: 250px;
-}
-#venir .right {
-  margin-left: 400px;
-  width: 275px;
-}
-#venir h2 {
-  font-size: 20px;
-  width: 260px;
-}
-.map {
-  padding-left: 19px;
-  background: url("../img/gmap.png") no-repeat scroll 0 50% transparent;
-}
-
-#dormir .intro {
-  padding: 0 30px;
-  margin: 1em 0;
-  text-align: justify;
-}
-#dormir .col {
-  text-align: justify;
-  float: left;
-  margin-left: 30px;
-  padding-top: 30px;
-  width: 440px;
-}
-#dormir img {
-  /* width: 80px; */
-  float: left;
-  margin: 0 20px 0 0;
-}
-#bebes {
-  padding: 0 30px;
-  margin: 1.6em 0 0;
-}
-#gites {
-  margin-top: 30px;
-}
-#gites ul {
-  list-style: none outside none;
-  margin: 0;
-  padding: 0;
-}
-#gites .desc {
-  margin: 0px 0 15px;
-  color: #222;
-  font-size: 80%;
-}
 section {
-  padding-bottom: 100px;
+  padding-bottom: 10px;
 }
 
-#ecrire h1 {
-  width: 400px;
-}
-#ecrire p {
-  padding: 20px 20px 60px;
-}
-
-#offrir h1 {
+#merci h1 {
   z-index: 5;
   float:left;
-  width: 200px;
-  background: #FF85AD;
+  width: 400px;
+  background: rgba(255, 133, 173, 0.92);
   color: #433A2F;
   border-radius: 8px;
-  margin-left: 340px;
+  margin-left: 255px;
   margin-top: -7px;
   padding: 2px 25px;
       -moz-box-shadow: 0 1px 4px #000000;
   -webkit-box-shadow: 0 1px 4px #000000;
           box-shadow: 0 1px 4px #000000;
 }
+.lt-ie9 #merci h1 {
+  background:#FF85AD
+}
 
-#offrir .intro {
+#merci .intro {
   text-align: justify;
   z-index: 4;
-  color: #EEE;
-  background: #433A2F;
+  color: #FF85AD;
+  background: rgba(67, 58, 47, 0.92);
   border-radius: 8px;
   margin-left: -20px;
   padding: 70px 50px 40px;
@@ -459,24 +336,41 @@ section {
       -moz-box-shadow: 0 1px 8px #000000;
   -webkit-box-shadow: 0 1px 8px #000000;
           box-shadow: 0 1px 8px #000000;
+}
+.lt-ie9 #merci .intro {
+  background: #433A2F;
+}
 
+#impression {
+  color: #DDD;
+  font-size: 85%;
 }
-#cadeaux ul {
-  clear: both;
-  margin: 0 0 36px 21px;
-  padding: 0;
+
+#photos .legend {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px 8px 0px 0px;
+    bottom: 0;
+    color: white;
+    left: 16px;
+    line-height: 1.4;
+    max-height: 50px;
+    position: absolute;
+    right: 16px;
+    padding: 0 20px;
 }
-#cadeaux li {
-    float: left;
-    list-style: none outside none;
-    margin: 0 10px 15px;
-    padding: 0;
+.lt-ie9 #photos .legend {
+  background: black;
 }
-#cadeaux li img {
-  height: 140px;
-  width: 163px;
-  display: block;
-      -moz-box-shadow: 0 1px 5px #000000;
-  -webkit-box-shadow: 0 1px 5px #000000;
-          box-shadow: 0 1px 5px #000000;
+
+.photoLien {
+  margin: 3px;
+  float: left;
+  position: relative;
+      -moz-box-shadow: 0 1px 4px #000000;
+  -webkit-box-shadow: 0 1px 4px #000000;
+          box-shadow: 0 1px 4px #000000;
+}
+
+footer {
+ clear: both;
 }
